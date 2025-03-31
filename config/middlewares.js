@@ -5,7 +5,7 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["http://localhost:3000"], // Allow requests from your Next.js frontend
+      origin: ["http://localhost:5173"], // Allow requests from your Next.js frontend
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       headers: [
         "Content-Type",

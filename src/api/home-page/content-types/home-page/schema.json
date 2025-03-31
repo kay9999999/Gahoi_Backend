@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner": {
+      "allowedTypes": [
+        "videos",
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
